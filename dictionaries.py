@@ -37,7 +37,7 @@ print(len(person2))
 
 # List of dict
 people = [
-    {'name': 'Martha', 'age': 30},
+    {'name': 'Martin', 'age': 30},
     {'name': 'Kevin', 'age': 25}
 ]
 
