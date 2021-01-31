@@ -6,7 +6,7 @@
 # # Multiple Assignment
 x, y, name, is_condition = (1, 2.5, "siya", True)
 
-#Basic Maths
+# Basic Maths
 a = x + y
 print(a)
 
