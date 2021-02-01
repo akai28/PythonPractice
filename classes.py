@@ -25,7 +25,7 @@ class User:
 class Customer(User):
     # Constructor
     def __init__(self, name, email, age):
-        # Called proper parent class constructor to make this as proper child inehriting all methods.
+
         User.__init__(self, name, email, age)
         self.name = name
         self.email = email
@@ -56,10 +56,9 @@ akai._private = 800
 akai.print_encap()
 
 # Method inherited from parent
-# Changing the variable for brad doesn't affect janets variable --> Encapsulation
+
 utk.print_encap()
 utk._private = 600
 utk.print_encap()
 
-# Similary changing janet's doesn't affect brad's variable.
 akai.print_encap()
