@@ -15,3 +15,8 @@ def getSum(num1, num2):
 
 num = getSum(10, 30)
 print(num)
+
+# Lambda Function
+
+getSum = lambda num1, num2: num1+num2
+print(getSum(10, 3))
