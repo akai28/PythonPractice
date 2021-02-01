@@ -12,18 +12,19 @@ from time import time
 import datetime
 
 today = datetime.date.today()
-# print(today)
+print(today)
 
 # Timestamp
 today = date.today()
 timestamp = time()
 
-# print(timestamp)
+print(timestamp)
 
 # Pip module
 # Import custom module
+
 c = CamelCase()
-# print(c.hump('hello there world'))
+print(c.hump('hello there world'))
 
 email = 'test#test.com'
 if validate_email(email):
